@@ -14,3 +14,18 @@ A Demo showing how to create a cross platform game on Android & Desktop using JM
 
 5) Jar building task.
 
+# Building Game :
+
+### Desktop : 
+```gradle
+./gradlew :desktop:assemble
+```
+
+### Android : 
+```gradle
+./gradlew :app:assemble
+```
+
+References : 
+
+https://developer.android.com/studio/build/building-cmdline
