@@ -20,6 +20,7 @@ A Demo showing how to create a cross platform game on Android & Desktop using JM
 ```gradle
 ./gradlew :desktop:assemble
 ```
+![]{https://github.com/Scrappers-glitch/CrossPlatformModule/blob/master/screenshots/desktop/Screenshot%20at%202021-10-25%2000-08-45.png}
 
 ### Android : 
 ```gradle
