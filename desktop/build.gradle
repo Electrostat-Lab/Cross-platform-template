@@ -12,15 +12,10 @@ dependencies {
     implementation "org.jmonkeyengine:jme3-lwjgl:3.4.0-stable"
     implementation "org.jmonkeyengine:jme3-desktop:3.4.0-stable"
 }
-task releaseJAR(type: org.gradle.jvm.tasks.Jar){
+
+jar{
     manifest {
-        attributes 'Main-Class': 'com.example.desktopmodule.DesktopLauncher'
-    }
-    sourceSets {
-        main {
-            java {
-                srcDir 'src/main/java'
-            }
-        }
+        attributes('Main-Class': 'com.example.desktopmodule.DesktopLauncher')
     }
 }
+
