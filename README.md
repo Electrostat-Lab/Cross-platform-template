@@ -30,6 +30,18 @@ A Demo showing how to create a cross platform game on Android & Desktop using JM
 
 ![](https://github.com/Scrappers-glitch/CrossPlatformModule/blob/master/screenshots/android/Screenshot_20211025-000108283.jpg)
 
+## In order to use : 
+
+1) Through Android Studio, you can code for both the desktop & the android at the same time.
+
+2) Command Line tools using git & gradlew commands.
+
 References : 
 
+=> gradlew for android:
 https://developer.android.com/studio/build/building-cmdline
+
+=> Gradle DSL :
+
+=> Gradle for java :
+
