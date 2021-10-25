@@ -52,6 +52,9 @@ Install the app on a connected device via adb.
 
 2) Command Line tools using git & gradlew commands.
 
+=> Thanks Ali_RS for the suggestion of separating game module from desktop and android ones.
+=> Thanks wizzardo for fixing creating jar from desktop issue.
+
 References : 
 
 => gradlew for android:
