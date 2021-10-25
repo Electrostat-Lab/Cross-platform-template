@@ -27,7 +27,19 @@ A Demo showing how to create a cross platform game on Android & Desktop using JM
 Install the app on a connected device via adb.
 
 ```gradle
-./gradlew :app:install
+┌─[✗]─[twisted@parrot]─[~/AndroidStudioProjects/CrossPlatformModule]
+└──╼ $./gradlew :app:installDebug
+
+> Task :app:installDebug
+Installing APK 'app-debug.apk' on 'Redmi Note 6 Pro - 10' for app:debug
+Installed on 1 device.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/7.0.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 4s
+33 actionable tasks: 1 executed, 32 up-to-date
 ```
 
 # Building Game :
