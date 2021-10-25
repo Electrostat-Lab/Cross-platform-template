@@ -18,6 +18,10 @@ A Demo showing how to create a cross platform game on Android & Desktop using JM
 
 ### Desktop : 
 
+```gradle
+./gradlew run
+```
+
 ### Android : 
 
 Install the app on a connected device via adb.
