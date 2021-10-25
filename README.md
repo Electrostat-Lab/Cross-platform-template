@@ -59,7 +59,7 @@ https://developer.android.com/studio/build/building-cmdline
 
 => Gradle DSL : https://docs.gradle.org/current/dsl/index.html
 
-=> Gradle for java :
+=> Gradle for java : https://docs.gradle.org/current/userguide/multi_project_builds.html
 
 => Gradle/Groovy Udacity course by google : https://github.com/udacity/ud867/blob/master/1.11-Exercise-ConfigureFileSystemTasks/solution.gradle
 
