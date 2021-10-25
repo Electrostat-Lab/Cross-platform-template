@@ -1,6 +1,6 @@
 package com.example.desktopmodule;
 
-import com.mygame.Game;
+import myGame.Game;
 import com.jme3.system.AppSettings;
 
 /**

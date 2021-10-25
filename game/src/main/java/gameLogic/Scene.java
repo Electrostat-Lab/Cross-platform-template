@@ -1,4 +1,4 @@
-package com.gameLogic;
+package gameLogic;
 
 import com.jme3.anim.AnimComposer;
 import com.jme3.app.Application;
