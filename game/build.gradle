@@ -1,0 +1,15 @@
+plugins {
+    id 'java-library'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_7
+    targetCompatibility = JavaVersion.VERSION_1_7
+}
+
+dependencies {
+    implementation 'org.jmonkeyengine:jme3-core:3.4.0-stable'
+    implementation "org.jmonkeyengine:jme3-effects:3.4.0-stable"
+    implementation "org.jmonkeyengine:jme3-lwjgl:3.4.0-stable"
+    implementation "org.jmonkeyengine:jme3-desktop:3.4.0-stable"
+}

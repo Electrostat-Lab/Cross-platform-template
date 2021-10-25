@@ -12,7 +12,7 @@ import com.jme3.app.LegacyApplication;
 import com.jme3.app.jmeSurfaceView.JmeSurfaceView;
 import com.jme3.app.jmeSurfaceView.OnExceptionThrown;
 import com.jme3.app.jmeSurfaceView.OnRendererCompleted;
-import com.mygame.Game;
+import myGame.Game;
 import com.jme3.system.AppSettings;
 
 /**
