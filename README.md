@@ -53,7 +53,7 @@ References :
 => gradlew for android:
 https://developer.android.com/studio/build/building-cmdline
 
-=> Gradle DSL :
+=> Gradle DSL : https://docs.gradle.org/current/dsl/index.html
 
 => Gradle for java :
 
