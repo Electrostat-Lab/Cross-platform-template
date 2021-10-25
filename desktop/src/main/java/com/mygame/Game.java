@@ -1,4 +1,4 @@
-package com.jme3.game;
+package com.mygame;
 
 import com.gameLogic.Environment;
 import com.gameLogic.Scene;
