@@ -63,7 +63,7 @@ https://developer.android.com/studio/build/building-cmdline
 
 => Gradle/Groovy Udacity course by google : https://github.com/udacity/ud867/blob/master/1.11-Exercise-ConfigureFileSystemTasks/solution.gradle
 
-=> See JMonkeyEngine Android Examples : https://github.com/Scrappers-glitch/jme3-Simple-Examples
+=> See JMonkeyEngine Android Examples : https://github.com/Scrappers-glitch/jme3-Simple-Examples <br/>
 https://github.com/Scrappers-glitch/DBTraining
 
 => See JMonkeyEngine Desktop Example : https://github.com/Scrappers-glitch/basic-gradle-template
