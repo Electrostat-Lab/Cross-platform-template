@@ -33,8 +33,25 @@ Install the app on a connected device via adb.
 # Building Game :
 
 ### Desktop : 
-```gradle
-./gradlew :desktop:assemble
+```bash
+┌─[twisted@parrot]─[~/AndroidStudioProjects/CrossPlatformModule]
+└──╼ $./gradlew :desktop:copyJars
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/7.0.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1s
+5 actionable tasks: 5 up-to-date
+┌─[twisted@parrot]─[~/AndroidStudioProjects/CrossPlatformModule]
+└──╼ $./gradlew :desktop:releaseJar 
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/7.0.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1s
+6 actionable tasks: 6 up-to-date
 ```
 ![](https://github.com/Scrappers-glitch/CrossPlatformModule/blob/master/screenshots/desktop/Screenshot%20at%202021-10-25%2000-08-45.png)
 
