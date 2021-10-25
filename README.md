@@ -26,7 +26,7 @@ A Demo showing how to create a cross platform game on Android & Desktop using JM
 
 Install the app on a connected device via adb.
 
-```gradle
+```bash
 ┌─[✗]─[twisted@parrot]─[~/AndroidStudioProjects/CrossPlatformModule]
 └──╼ $./gradlew :app:installDebug
 
