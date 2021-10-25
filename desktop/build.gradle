@@ -4,6 +4,7 @@ plugins {
 group 'com.desktopModule'
 
 java {
+    mainClassName = 'com.example.desktopmodule.DesktopLauncher'
     sourceCompatibility = JavaVersion.VERSION_1_8
     targetCompatibility = JavaVersion.VERSION_1_8
     withSourcesJar()
