@@ -4,6 +4,8 @@ plugins {
 
 group 'com.desktopModule'
 version '3.2-testcase'
+mainClassName = 'com.example.desktopmodule.DesktopLauncher'
+String dependenciesString = ""
 
 java {
     sourceCompatibility = JavaVersion.VERSION_1_8
@@ -17,12 +19,48 @@ dependencies {
     implementation "org.jmonkeyengine:jme3-lwjgl:3.4.0-stable"
     implementation "org.jmonkeyengine:jme3-desktop:3.4.0-stable"
 }
-
-jar{
-    manifest {
-        attributes('Main-Class': 'com.example.desktopmodule.DesktopLauncher')
+task copyJars(type: Copy) {
+    from (sourceSets.main.runtimeClasspath){
+        include '**/*.jar'
     }
+    from(sourceSets.main.compileClasspath){
+        include '**/*.jar'
+    }
+    into('build/libs/dependencies')
+    includeEmptyDirs = false
+    setDuplicatesStrategy(DuplicatesStrategy.EXCLUDE)
+}
+/**
+ * Better approach described below, but the 2 of them are vial ones
+ */
+task createJar(type : Jar, dependsOn : copyJars){
+    //get the copied jars
+    final String project = rootDir.getPath()
+    final File dependencies = new File(project + "/desktop/build/libs/dependencies/")
+    if(dependencies.exists()) {
+        if (dependencies.listFiles().length > 0) {
+            final File[] files = dependencies.listFiles()
+            for (int i = 0; i < files.length; i++) {
+                final String fileName = files[i].getName()
+                if (fileName.contains(".jar")) {
+                    dependenciesString += "dependencies/" + fileName + " "
+                }
+            }
+        }
+    }
+    manifest{
+        attributes('Main-Class': mainClassName)
+        //pass the jars to the manifest
+        attributes('Class-Path' : dependenciesString)
+        attributes('Created-By' : 'Jme3-Gradle')
+    }
+    with jar
 }
 
-
-
+task releaseJar(type: Jar, dependsOn: copyJars) {
+    manifest {
+        attributes("Main-Class": mainClassName,
+                "Class-Path": sourceSets.main.runtimeClasspath.filter {it.isFile() }.collect { "dependencies/${it.name}" }.join(' '))
+    }
+    with jar
+}
