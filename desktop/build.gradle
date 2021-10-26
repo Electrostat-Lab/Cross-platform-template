@@ -56,11 +56,14 @@ task createJar(type : Jar, dependsOn : copyJars){
     }
     with jar
 }
-
+/**
+ * A Suggestion of better code by : Mikhail Bobrutskov (aka wizzardo)
+ */
 task releaseJar(type: Jar, dependsOn: copyJars) {
     manifest {
         attributes("Main-Class": mainClassName,
                 "Class-Path": sourceSets.main.runtimeClasspath.filter {it.isFile() }.collect { "dependencies/${it.name}" }.join(' '))
     }
+    //tag the jar task to inject this task into it
     with jar
 }
