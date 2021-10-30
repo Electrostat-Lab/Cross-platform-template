@@ -2,6 +2,14 @@
 
 A Demo showing how to create a cross platform game on Android & Desktop using JMonkeyEngine.
 
+# Modules : 
+
+1) Game module `:game` : holds `build.gradle` dependencies for the game code & should hold your code.
+
+2) Desktop module `:desktop` : holds `build.gradle` for desktop dependencies & implements the `:game` module, this module can hold the desktop gui.
+
+3) Android module `:app` : holds `build.gradle` for the android dependencies & implements the `:game` module, this module can hold android dependent gui.
+
 # Features : 
 
 1) Gradle.
