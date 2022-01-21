@@ -2,6 +2,8 @@
 
 A Demo showing how to create a cross platform game on Android & Desktop using JMonkeyEngine.
 
+# Uses gradle 6.7.1, to support java-8 on android studio 4.2.0, you can upgrade to gradle-7.2.1 and use AGP-7 as you like.
+
 # Modules : 
 
 1) Game module `:game` : holds `build.gradle` dependencies for the game code & should hold your code.
