@@ -93,7 +93,7 @@ BUILD SUCCESSFUL in 1s
 => Thanks Ali_RS for the suggestion of separating game module from desktop and android ones. <br/>
 => Thanks wizzardo for fixing creating jar from desktop issue. <br/>
 
-References : 
+## References : 
 
 => Android studio-AGP-Gradle release notes : 
 https://developer.android.com/studio/releases/gradle-plugin
