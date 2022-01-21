@@ -95,7 +95,7 @@ BUILD SUCCESSFUL in 1s
 
 References : 
 
-=> Android studio~AGP~Gradle release notes : 
+=> Android studio-AGP-Gradle release notes : 
 https://developer.android.com/studio/releases/gradle-plugin
 
 => gradlew for android:
