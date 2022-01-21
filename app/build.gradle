@@ -4,7 +4,6 @@ plugins {
 
 android {
     compileSdk 30
-
     defaultConfig {
         applicationId "com.example.androidmodule"
         minSdk 21
@@ -22,8 +21,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
     configurations.all {
         exclude group:"org.jmonkeyengine",module:"jme3-desktop"

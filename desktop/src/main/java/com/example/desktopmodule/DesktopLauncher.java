@@ -1,7 +1,7 @@
 package com.example.desktopmodule;
 
-import myGame.Game;
 import com.jme3.system.AppSettings;
+import myGame.Game;
 
 /**
  * Used to launch a jme application in desktop environment using native GLFW.

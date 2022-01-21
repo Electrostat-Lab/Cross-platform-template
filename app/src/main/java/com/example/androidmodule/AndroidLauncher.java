@@ -1,19 +1,17 @@
 package com.example.androidmodule;
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.view.View;
-
-import com.google.android.material.snackbar.BaseTransientBottomBar;
-import com.google.android.material.snackbar.Snackbar;
+import android.widget.Toast;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 import com.jme3.app.LegacyApplication;
 import com.jme3.app.jmeSurfaceView.JmeSurfaceView;
 import com.jme3.app.jmeSurfaceView.OnExceptionThrown;
 import com.jme3.app.jmeSurfaceView.OnRendererCompleted;
-import myGame.Game;
 import com.jme3.system.AppSettings;
+import myGame.Game;
 
 /**
  * Used to create an Android Activity, the main entry for {@link android.view.Choreographer} to render Ui-Components.
@@ -57,7 +55,7 @@ public class AndroidLauncher extends AppCompatActivity implements OnRendererComp
         //test android views (native android Ui -- managed by Choreographer)
         final View button = findViewById(R.id.button);
         //invoking the call from the android context aka from the Choreographer thread not gl thread  :-))
-        button.setOnClickListener((view)-> Snackbar.make(view, "Android View OnClick invoked", BaseTransientBottomBar.LENGTH_SHORT).show());
+        button.setOnClickListener((view)-> Toast.makeText(getApplicationContext(), "Android View OnClick invoked", Toast.LENGTH_LONG).show());
         //shallow copying the surface view to be managed by the life cycle
         this.jmeSurfaceView = gl_surfaceView;
     }
