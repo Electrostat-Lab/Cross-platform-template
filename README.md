@@ -1,4 +1,4 @@
-# CrossPlatformModule
+# CrossPlatformModule [![Codacy Badge](https://app.codacy.com/project/badge/Grade/09d937b3dd2549aea7e304aedc050764)](https://www.codacy.com/gh/Monkey-Droid/CrossPlatformModule/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Monkey-Droid/CrossPlatformModule&amp;utm_campaign=Badge_Grade)
 
 A Demo showing how to create a cross platform game on Android & Desktop using JMonkeyEngine. <br/>
 Note : The project uses gradle 6.7.1, to support java-8 on android studio 4.2.0, you can upgrade to gradle-7.2.1 and use AGP-7 as you like.
