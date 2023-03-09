@@ -1,4 +1,4 @@
 rootProject.name = "CrossPlatformModule"
-include ':app'
+include ':android'
 include ':desktop'
 include ':game'
