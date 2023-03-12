@@ -13,7 +13,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CrossPlatformModule"
+rootProject.name = "Cross-platform-template"
 include ':android'
 include ':desktop'
 include ':game'
