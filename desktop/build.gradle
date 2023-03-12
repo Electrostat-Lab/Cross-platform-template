@@ -17,8 +17,8 @@ tasks.withType(JavaCompile) { // compile-time options [javac <options> <sources>
 
 dependencies {
     implementation project(path: ':game')
-    implementation "org.jmonkeyengine:jme3-lwjgl:3.4.0-stable"
-    implementation "org.jmonkeyengine:jme3-desktop:3.4.0-stable"
+    implementation "org.jmonkeyengine:jme3-lwjgl:3.6.0-beta3"
+    implementation "org.jmonkeyengine:jme3-desktop:3.6.0-beta3"
 }
 task copyJars(type: Copy) {
     from (sourceSets.main.runtimeClasspath){

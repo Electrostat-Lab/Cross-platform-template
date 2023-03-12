@@ -7,9 +7,9 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import com.jme3.app.LegacyApplication;
-import com.jme3.app.jmeSurfaceView.JmeSurfaceView;
-import com.jme3.app.jmeSurfaceView.OnExceptionThrown;
-import com.jme3.app.jmeSurfaceView.OnRendererCompleted;
+import com.jme3.view.surfaceview.JmeSurfaceView;
+import com.jme3.view.surfaceview.OnExceptionThrown;
+import com.jme3.view.surfaceview.OnRendererCompleted;
 import com.jme3.system.AppSettings;
 import myGame.Game;
 

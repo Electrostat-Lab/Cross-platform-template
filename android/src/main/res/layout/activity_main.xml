@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".AndroidLauncher">
 
-<com.jme3.app.jmeSurfaceView.JmeSurfaceView
+<com.jme3.view.surfaceview.JmeSurfaceView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/glView" />
