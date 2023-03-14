@@ -15,6 +15,8 @@ A cross platform template for jMonkeyEngine games supporting both common-platfor
 - [x] Android Support via `:android` module.
 - [x] Desktop Support via `:desktop` module.
 - [x] Desktop executable jar building task.
+- [x] Automate game building using gradle tasks via GitHub CI.
+- [ ] Automate game releasing `on-release` via GitHub CI `on-release` action.
 - [ ] Android emulator and adb helper tasks (wip).
 
 # Running Game : 
