@@ -70,22 +70,22 @@ $./gradlew :android:clean &&
 
 ### References : 
 
-=> Android studio-AGP-Gradle release notes : 
-https://developer.android.com/studio/releases/gradle-plugin
+=> [Android studio-AGP-Gradle release notes](https://developer.android.com/studio/releases/gradle-plugin)
 
-=> Gradle wrapper for android:
-https://developer.android.com/studio/build/building-cmdline
+=> [Gradle wrapper for android](https://developer.android.com/studio/build/building-cmdline)
 
-=> Gradle DSL : https://docs.gradle.org/current/dsl/index.html
+=> [Gradle DSL](https://docs.gradle.org/current/dsl/index.html)
 
-=> Gradle for java : https://docs.gradle.org/current/userguide/multi_project_builds.html
+=> [Gradle multi-project-builds](https://docs.gradle.org/current/userguide/multi_project_builds.html)
 
-=> Gradle/Groovy Udacity course by google : https://github.com/udacity/ud867/blob/master/1.11-Exercise-ConfigureFileSystemTasks/solution.gradle
+=> [Gradle/Groovy Udacity course by google](https://github.com/udacity/ud867/blob/master/1.11-Exercise-ConfigureFileSystemTasks/solution.gradle)
 
-=> See JMonkeyEngine Android Examples : https://github.com/Scrappers-glitch/jme3-Simple-Examples <br/>
-https://github.com/Scrappers-glitch/DBTraining <br/>
-https://github.com/Scrappers-glitch/Superior-Extended-Engine/tree/master/demoApp <br/>
+=> See JMonkeyEngine Android Examples: 
+- [jme3-simple-examples](https://github.com/Scrappers-glitch/jme3-Simple-Examples)
+- [DB-Training-App](https://github.com/Scrappers-glitch/DBTraining)
+- [SEE-Demo](https://github.com/Scrappers-glitch/Superior-Extended-Engine/tree/master/demoApp)
 
-=> See JMonkeyEngine Desktop Example : https://github.com/Scrappers-glitch/basic-gradle-template
+=> See JMonkeyEngine RPI armhf Desktop Example: 
+- [JmeCarPhysicsTestRPI](https://github.com/Scrappers-glitch/JmeCarPhysicsTestRPI)
+- [GPIOJmeCarTest](https://github.com/Software-Hardware-Codesign/JmeCarPhysicsTestRPI/blob/master/src/main/java/GPIOJmeCarTest.java)
 
-=> See JMonkeyEngine RPI armhf Desktop Example : https://github.com/Scrappers-glitch/JmeCarPhysicsTestRPI
