@@ -3,13 +3,13 @@
 
 A cross platform template for jMonkeyEngine games supporting both common-platform and platform-specific environment using gradle sub-projects.
 
-# Modules : 
+# Modules: 
 1) Game module `:game` : holds `build.gradle` dependencies for the game code & should hold your code.
 2) Game-assets module `:game-assets`: holds game assets at `./game-assets/src/main/resources` and supports java code specific to loading assets which is also a cross-platform module.
 3) Desktop module `:desktop` : holds `build.gradle` for desktop dependencies and implements the `:game` module and the `game-assets` module, this module can hold the desktop dependent gui and hardware code.
 4) Android module `:android` : holds `build.gradle` for the android dependencies and implements the `:game` module and the `game-assets` module, this module can hold android dependent gui and hardware code.
 
-# Features : 
+# Features: 
 - [x] A platform independent assets module `:game-assets` for game assets.
 - [x] A platform independent game module `:game` for game logic.
 - [x] Android Support via `:android` module.
@@ -19,15 +19,15 @@ A cross platform template for jMonkeyEngine games supporting both common-platfor
 - [ ] Automate game releasing `on-release` via GitHub CI `on-release` action.
 - [ ] Android emulator and adb helper tasks (wip).
 
-# Running Game : 
+# Running Game: 
 
-### On Desktop : 
+### On Desktop: 
 
 ```gradle
 ./gradlew run
 ```
 
-### On Android : 
+### On Android: 
 
 Install the app on a connected device via adb.
 
@@ -43,9 +43,9 @@ BUILD SUCCESSFUL in 4s
 33 actionable tasks: 1 executed, 32 up-to-date
 ```
 
-# Building Game :
+# Building Game:
 
-### Desktop : 
+### Desktop: 
 ```bash
 $./gradlew :desktop:clean &&
  ./gradlew :desktop:build && 
@@ -54,7 +54,7 @@ $./gradlew :desktop:clean &&
 ```
 ![](https://github.com/Scrappers-glitch/CrossPlatformModule/blob/master/screenshots/desktop/Screenshot%20at%202021-10-25%2000-08-45.png)
 
-### Android : 
+### Android: 
 ```gradle
 $./gradlew :android:clean &&
  ./gradlew :android:build && 
@@ -70,7 +70,7 @@ $./gradlew :android:clean &&
 => Thanks [Ali_RS](https://hub.jmonkeyengine.org/u/ali_rs/summary) for the suggestion of separating game and game-assets module from desktop and android ones. <br/>
 => Thanks [wizzardo](https://hub.jmonkeyengine.org/u/wizzardo/summary) for fixing creating jar from desktop issue. <br/>
 
-### References : 
+### References: 
 
 => [Android studio-AGP-Gradle release notes](https://developer.android.com/studio/releases/gradle-plugin)
 
@@ -90,4 +90,3 @@ $./gradlew :android:clean &&
 => See JMonkeyEngine RPI armhf Desktop Example: 
 - [JmeCarPhysicsTestRPI](https://github.com/Scrappers-glitch/JmeCarPhysicsTestRPI)
 - [GPIOJmeCarTest](https://github.com/Software-Hardware-Codesign/JmeCarPhysicsTestRPI/blob/master/src/main/java/GPIOJmeCarTest.java)
-
