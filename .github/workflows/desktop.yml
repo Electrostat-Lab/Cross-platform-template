@@ -40,5 +40,5 @@ jobs:
       - name: Assemble
         run: ./gradlew :desktop:copyJars && ./gradlew :desktop:releaseJar
 
-      - name: Test
-        run: ./gradlew :desktop:run
+      - name: Output Binaries
+        run: ls -aR ./desktop/build/libs
